@@ -1,0 +1,18 @@
+[entryPoints]
+  [entryPoints.web]
+    address = ":80"
+
+
+[api]
+insecure = true
+
+[log]
+insecure = true
+
+
+[accessLog]
+
+[providers]
+  [providers.docker]
+    exposedByDefault = false
+
